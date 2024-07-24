@@ -1,5 +1,6 @@
-.App {
+.container {
   text-align: center;
+  background-color: #aca5c0;
 }
 
 .App-header {
@@ -24,6 +25,27 @@ ul {
 
 li {
   margin: 5px 0;
-  font-size: 1.2em;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.5em;
+  font-family:'Courier New', Courier, monospace;
+  font-weight: 700;
+  letter-spacing: 1px;
+
+}
+input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+  margin-top: 5%;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.list-items{
+  height: 800px;
+  text-align: center;
+
 }
